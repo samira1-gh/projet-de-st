@@ -1,0 +1,14 @@
+/* search domain section */
+section#home-banner{
+    background:url('../images/background/2.jpg') top fixed;
+}
+
+/* all pages pageheader */
+section#subheader{
+    background:url('../images/background/2.jpg') top fixed;
+}
+
+/* section testimonial */
+section#section-testimonial{
+	background:url('../images/background/1.jpg') top fixed;
+}

@@ -1,0 +1,95 @@
+
+
+:root {
+  --primary-color-1: #ab46ec;
+  --primary-color-2: #2674e8;
+  --primary-color-1-rgb: 171,70,236;
+  --primary-color-2-rgb: 38,116,232;
+  --secondary-color-1: #65BC7B;
+  --secondary-color-2: #54d575;
+  
+  --dark-mode-color-1: #171635;
+  --dark-mode-color-2: #1d1c3d;
+  --dark-mode-color-3: #100f28;
+  
+}
+
+#order-premium_comparison .main-container.price-01 h3, #order-premium_comparison .main-container.price-01 h5{
+	font-weight:bold;
+}
+
+#order-premium_comparison .price-table-container .price-table{
+	-webkit-box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.1);
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	overflow:hidden;
+}
+
+#order-premium_comparison .price-table-container .price-table .top-head,
+.de-pricing-bottom {
+    background:linear-gradient(to top right, var(--primary-color-1), var(--primary-color-2));
+}
+
+.de-pricing-bottom{
+	padding:40px 20px!important;
+}
+
+#order-premium_comparison .price-table-container .price-table .top-head .top-area h4{
+	font-weight:bold;
+	padding:0 20px;
+	border-radius:30px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	margin:20px 0;
+	display:inline-block;
+	background:linear-gradient(to right, var(--primary-color-1), var(--primary-color-2));
+}
+
+#order-premium_comparison .price-table-container .price-table ul{
+	padding:0;
+}
+
+#order-premium_comparison .price-table-container .price-table ul li{
+	font-size:16px;
+	border:none;
+	margin:0;
+}
+
+#order-premium_comparison .price-table-container .price-table .de-pricing-mid ul li:nth-child(odd) {
+	background: #ffffff;
+}
+#order-premium_comparison .price-table-container .price-table .de-pricing-mid ul li:nth-child(even) {
+	background: #f8f8f8;
+}
+
+#order-premium_comparison .price-table-container .price-table .top-head .price-area .price span{
+	font-size:40px;
+	color:#ffffff;
+	text-shadow:none;
+	font-weight:500;
+}
+
+#order-premium_comparison .price-table-container .price-table .top-head .price-area{
+	color:#ffffff;
+	text-shadow:none;	
+	font-weight:500;
+}
+
+#order-premium_comparison .price-table-container .price-table .top-head .price-area,
+#order-premium_comparison .price-table-container .price-table .top-head .top-area,
+#order-premium_comparison .price-table-container .price-table .popular-plan{
+	border:none;
+}
+
+#order-premium_comparison .price-table-container .price-table{
+	width:320px;
+}
+
+.btn-custom,
+#order-premium_comparison .price-table-container .price-table .popular-plan{
+	background:linear-gradient(to right, var(--secondary-color-1), var(--secondary-color-2));
+	color:#ffffff;
+}

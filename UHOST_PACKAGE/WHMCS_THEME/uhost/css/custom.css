@@ -1,0 +1,399 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+	line-height:1.7em;
+	background:#ffffff;
+	color: #707070;
+}
+
+body, button, input, select, textarea,
+h1,h2,h3,h4,h5,h6,section#header a.logo-text,
+.panel-sidebar .panel-title,
+.navbar-main{
+}
+
+
+h1,h2,h3,h4,h5,h6,
+div.header-lined h1,
+a.de-newstitle,
+a.list-group-item.active{
+	font-weight:600;
+	color:#1A1C26;
+}
+
+
+.header-lined h1{
+	font-size:32px;
+}
+
+a.de-newstitle{
+	margin-bottom:20px;
+}
+
+.h3,h3{
+	font-size:22px;
+}
+
+div.header-lined h1{
+	letter-spacing:-1px;
+}
+
+
+
+
+.navbar-main{
+	font-size:14px;
+}
+
+
+.panel-default>.panel-heading,
+.panel-sidebar > .panel-heading,
+ a.list-group-item.active{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+}
+
+section#home-banner .btn.transfer{
+	background:#2674e8;
+}
+
+.tiles .tile:first-child{
+	border-radius:10px 0 0 10px;
+}
+
+.tiles .tile:last-child{
+	border-radius:0 10px 10px 0;
+}
+
+
+
+section#subheader h1 small{
+	display:block;
+	color:rgba(255,255,255,.7);
+	margin-top:10px;
+	font-size:18px;
+}
+
+section#home-banner h2{
+	color:#ffffff;
+	margin-bottom:10px;
+}
+
+
+section#home-banner .form-control{
+	overflow:hidden;	
+	border-radius:30px 0 0 30px;
+}
+section#home-banner .btn.search{
+	overflow:hidden;	
+	border-radius:0 30px 30px 0;
+}
+
+.home-shortcuts li:first-child,
+.home-shortcuts li{
+	border:none;
+}
+
+.domain-pricing .tld-pricing-header .col-sm-2, .domain-pricing .tld-pricing-header .col-sm-4, .domain-pricing .tld-pricing-header .col-xs-2, .domain-pricing .tld-pricing-header .col-xs-4{
+	border-bottom-color:#2674e8;
+}
+
+.tile .stat,
+.tile .title,
+.panel-default > .panel-heading{
+	color:#ffffff;
+}
+
+.tile .stat{
+	font-weight:bold;
+}
+
+.tile .title{
+	font-weight:500;
+	
+}
+
+section#header .logo-text{
+	font-size:32px;
+	line-height:32px;
+}
+
+section#header .logo img{
+	padding-top:5px;
+}
+
+.panel,
+.domain-promo-box,
+.domain-checker-container{
+	border:none;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+section#header a.logo-text,
+.panel-sidebar .panel-title{
+	color:#ffffff;
+}
+
+section#main-body{
+	padding:60px 0;
+}
+section#footer{
+	background:#071C26;
+	color:#ffffff;
+	border:none;
+}
+
+.navbar-main li.account, .panel-sidebar a.list-group-item.active:focus, .panel-sidebar a.list-group-item.active:hover,
+.navbar-main .navbar-nav > .active > a, .navbar-main .navbar-nav > .active > a:focus, .navbar-main .navbar-nav > .active > a:hover, .navbar-main .navbar-nav > .open > a, .navbar-main .navbar-nav > .open > a:focus, .navbar-main .navbar-nav > .open > a:hover, .navbar-main .navbar-nav > li > a:focus, .navbar-main .navbar-nav > li > a:hover{
+	background-color:#ab46ec;
+}
+
+.panel-sidebar a.list-group-item.active{
+	background:#eeeeee;
+}
+
+
+a:hover{
+	color:#2674e8;
+}
+
+.panel-sidebar .panel-title{
+	font-size:16px;
+	font-weight:bold;
+}
+
+ul.top-nav > li.primary-action > a.btn{
+	font-weight:bold;
+}
+
+.client-home-panels .panel > .panel-heading .panel-title .btn:hover{
+	color:#ffffff;
+}
+
+.btn.btn-primary,
+.btn.btn-default,
+.btn.btn-success,
+.btn.btn-warning,
+.btn.btn-error,
+.bg-color-blue,
+.bg-color-green,
+.bg-color-red,
+.bg-color-gold,
+section#home-banner .btn.search{
+		font-weight:600;
+		color:#fff;
+		border:none;
+}
+
+.panel.panel-accent-blue,
+.panel.panel-accent-emerald,
+.panel.panel-accent-asbestos,
+.panel.panel-accent-gold {
+    border-top: none;
+}
+
+.panel-sidebar>.panel-footer{
+	background:#ffffff;
+}
+
+ul.top-nav > li > a,ul.top-nav > li > a:hover{
+	color:#ffffff;
+}
+
+.panel,
+.home-kb-search,
+.tiles{
+	margin-bottom:30px;
+}
+
+.panel-footer{
+	background:#ffffff;
+}
+
+.panel-default .panel-footer{
+	margin:0;
+}
+
+.tile .icon{
+	color:rgba(255,255,255,.2);
+}
+
+.tiles .tile .highlight {
+    margin-bottom: 10px;
+}
+
+.navbar-collapse {
+    background: rgba(255,255,255,.1);
+}
+
+.domain-promo-box{
+	background:none;
+}
+
+#topbar{
+	position:absolute;
+	z-index:100;
+}
+
+.topbar-widget{
+	border:none !important;
+	padding:6px 0px !important;
+	font-weight:400;
+}
+
+ul.top-nav > li > a{
+	padding:0 10px;
+}
+
+ul.top-nav{
+	margin-top:0;
+}
+
+ul.top-nav > li.primary-action > a.btn{
+	padding:0 10px;
+}
+
+
+.announcement-single .article-items {
+	text-transform:uppercase;
+	font-size:11px;
+	color:#ffffff;
+	padding:0px 10px;
+	margin-right:10px;
+    display: inline-block;
+}
+
+.main-content{
+	padding-left:20px !important;
+}
+
+div.announcement-single{
+	margin-bottom:30px;
+}
+
+.article-items a.admin-inline-edit{
+	color:#fff;
+}
+
+.panel-body{
+	background:#ffffff !important;
+	border:none !important;;
+}
+
+.btn-group-sm>.btn, .btn-sm{
+	font-size:12px;
+}
+
+#mainmenu li li.nav-divider{
+	display:none;
+}
+.client-home-panels .panel>.list-group .list-group-item{
+	font-size:15px;
+	margin:0;
+}
+.client-home-panels .panel>.list-group .list-group-item span{
+	font-size:12px;
+}
+
+.main-content h2{
+	font-size:32px;
+	margin-bottom:0;
+}
+
+.progress{
+	background:#eeeeee !important;
+}
+
+.order-standard_cart .col-md-9{
+	display:none;
+}
+
+.domain-checker-container{
+	padding:0;
+}
+
+.domain-checker-container .input-group-box{
+	padding:0;
+}
+
+header .dropdown-menu{
+	background:none;
+}
+
+.de-wrapper-box{
+	background:#ffffff;
+	padding:30px 30px 0 30px;
+	border:solid 1px #eeeeee;
+	margin-bottom:20px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.kbarticles p {
+    display: ;
+    font-size: 15px;
+    border-bottom: solid 1px #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.kbarticles a {
+    font-weight: 500;
+    display: block;
+}
+
+.form-control {
+    font-size: 15px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.announcement-single .title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.input-group.kb-search {
+    margin-bottom: 20px;
+}
+
+.kb-article-content {
+    margin: 0 0 30px 0;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+#order-standard_cart .order-summary{
+	text-align:center;
+	font-weight:600;
+}
+
+.form-control {
+	background-color: #ffffff !important;
+	border-color: #dddddd !important;
+}
+
+header div#logo img{
+	max-height: 50px;
+}
